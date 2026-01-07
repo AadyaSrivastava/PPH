@@ -1,0 +1,78 @@
+[{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2022-07-15T01:03:41+0200",
+ "nonVisible": "true",
+ "iconName": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKMSURBVDhPlZRNSFRRFMf/5zkzT83xY6YGQxOKCFq1kxYFbSKCIIeCNi3K3LQIglwHKSG6EQyhpE2bIpAY+6CiKQvFwD5Nc8ZxLNNIs0wacxrn63beffc1ozMT9IPH/d933/nfc8+999Fi7XaBPNy9/RCEtOqtRfCIxYXZs7jsOY+CRr2Ph2SbpkyQAYkUOoJNqmfSpjflN7JM1tMebFRqLZcqD+caZZsUClxPz9Ie0+h/M7AYGxpAJFSD4N5joCsTC3lr9C+T4e4AtFgc2k+BFZsbIe9RaGoMNY4nSgEOWlIqw7VQPfpbFzF86j3oDW/ChI70nAOIFkGkKGP0Nb5btrr2A62Bc1Jb+MMJ7Bi8idLId56FQzie7HwMWBcvR2BsrDRKCgdWRSW3OlrGm2Wwhf9LAuUvp2GfivBykhzEUepI2ONJuMbDID5udOvVgGj+3C4HsumZOYitz31wRULAxxTSizpgMw14NagdDUttQdv6DuUU+/rbnXC++IRNk6MoEnEgxp+kzSpEi4hNJqW2uHqjA/Su94zYGB3iY88f8kzimw0Jfwn00DLsXBPNxi8VdOAXqjrnVc+k+0E9KqgBFGg6Iaqf+iE0DuDMhXG9Ypq8GprKov+iwBHvlNQWKwlC2b05qZ/VdXEaxazKObqc03fydazg1pNCYJ8NvhabLGa2iUjyfL75vyYGxnQUajsuNofv89IyS3B2LiilMGrM/oZBPga3dIGmRxpEncsHYWypMHeFOCpu15AoEdjAvxK543lMhLcav2NVeD12GhqVJkBuTs/F5Xan5UNuAd2ZQpnG/b75giZGpkQpowf6EDgpPFV3zKVlHQTnoxGlclnev0u2hslq3I3J2Ub8AbfV/bjTIBrwAAAAAElFTkSuQmCC",
+ "methods": [{
+  "deprecated": "false",
+  "name": "Gradient",
+  "description": "Set name of layout and a list with colors. Orientation is a number from 1 to 8. https://developer.android.com/reference/android/graphics/drawable/GradientDrawable.Orientation.html",
+  "params": [
+   {
+    "name": "layout",
+    "type": "component"
+   },
+   {
+    "name": "listOfColors",
+    "type": "list"
+   },
+   {
+    "name": "orientation",
+    "type": "number"
+   }
+  ]
+ }],
+ "blockProperties": [
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "CornerRadius",
+   "description": "Specifies the radius for the corners of the gradient. If this is > 0, then the drawable is drawn in a round-rectangle, rather than a rectangle. This property is honored only when the shape is of type RECTANGLE. Numbers: 0, 1, 2 or 3.",
+   "type": "number"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "Shape",
+   "description": "Sets the type of shape used to draw the gradient. Numbers: 0, 1, 2 or 3.",
+   "type": "number"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "Type",
+   "description": "Sets the type of gradient used by this drawable. Numbers: 0, 1, 2 or 3.",
+   "type": "number"
+  }
+ ],
+ "helpUrl": "",
+ "licenseName": "",
+ "type": "com.KIO4_Gradient.KIO4_Gradient",
+ "androidMinSdk": 7,
+ "version": "1",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "KIO4_Gradient",
+ "helpString": "Gradient in a layout, you can set a list of colors. https://developer.android.com/reference/android/graphics/drawable/GradientDrawable.html Juan Antonio Villalpando - KIO4.COM",
+ "properties": [
+  {
+   "defaultValue": "0.0",
+   "name": "CornerRadius",
+   "editorArgs": [],
+   "editorType": "float"
+  },
+  {
+   "defaultValue": "0",
+   "name": "Shape",
+   "editorArgs": [],
+   "editorType": "integer"
+  },
+  {
+   "defaultValue": "0",
+   "name": "Type",
+   "editorArgs": [],
+   "editorType": "integer"
+  }
+ ],
+ "events": []
+}]
