@@ -1,0 +1,373 @@
+[{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2023-11-23T10:48:15+0000",
+ "nonVisible": "true",
+ "iconName": "",
+ "methods": [
+  {
+   "deprecated": "false",
+   "name": "DismissDialog",
+   "description": "Dismisses the custom list picker dialog.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ShowListPicker",
+   "description": "Shows the custom list picker dialog.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ShowMultiChoicePicker",
+   "description": "Shows a multiple choice list picker dialog.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ShowSingleChoicePicker",
+   "description": "Shows a single choice list picker dialog",
+   "params": []
+  }
+ ],
+ "blockProperties": [
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "BackgroundColor",
+   "description": "Sets the background color of the custom list picker dialog.",
+   "type": "number"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "Cancellable",
+   "description": "Sets whether the dialog is cancellable or not",
+   "type": "boolean"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "DialogHeight",
+   "description": "Sets the height of the dialog in pixels. Set 0 for automatic.",
+   "type": "number"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "DividerColor",
+   "description": "Sets the color of the divider line between list items.",
+   "type": "number"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "Elements",
+   "description": "Sets the list items for the custom list picker dialog.",
+   "type": "list"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "ElementsFromString",
+   "description": "Sets the list items for the custom list picker dialog from a comma-separated string value.",
+   "type": "text"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "FontBold",
+   "description": "Sets the bold style for the dialog font.",
+   "type": "boolean"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "FontSize",
+   "description": "Sets the font size of the list items in the custom list picker dialog.",
+   "type": "number"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "FontTypeface",
+   "description": "Sets the typeface for the custom list picker dialog text.",
+   "type": "text"
+  },
+  {
+   "rw": "invisible",
+   "deprecated": "false",
+   "name": "FontTypefaceBold",
+   "description": "Property for FontTypefaceBold",
+   "type": "boolean"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "HintTextColor",
+   "description": "Sets the hint text color of the filter bar.",
+   "type": "number"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "ItemHeight",
+   "description": "Sets the height of the list items in the custom list picker dialog. Use 0 for automatic height.",
+   "type": "number"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "NegativeButtonText",
+   "description": "Sets the negative button text for dialog.",
+   "type": "text"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "PositiveButtonText",
+   "description": "Sets the positive button text for dialog.",
+   "type": "text"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "RememberChoices",
+   "description": "When set to true, the extension remembers the previous selected choices and checks them when selecting items again. When set to false, all items will be unchecked every time the dialog is shown.",
+   "type": "boolean"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "SearchHintText",
+   "description": "Sets the hint text for the search box in the custom list picker dialog.",
+   "type": "text"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "SelectedIndex",
+   "description": "Sets the index of the item to be pre-selected in the single choice list picker dialog.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Selection",
+   "description": "Returns the selected item from the custom list picker.",
+   "type": "text"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "SelectionIndex",
+   "description": "Returns the index of the selected item from the custom list picker. Index starts from 1.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "SelectionIndices",
+   "description": "Returns the indices of the selected items from multi list picker dialog.",
+   "type": "list"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Selections",
+   "description": "Returns the selected items from multi list picker dialog.",
+   "type": "list"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "ShowFilterBar",
+   "description": "Sets the visibility of the filter bar in the custom list picker dialog.",
+   "type": "boolean"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "TextColor",
+   "description": "Sets the text color of the custom list picker dialog text.",
+   "type": "number"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "Title",
+   "description": "Sets the title of the custom list picker dialog.",
+   "type": "text"
+  }
+ ],
+ "helpUrl": "",
+ "type": "com.thekstudio.CustomListPicker.CustomListPicker",
+ "androidMinSdk": 7,
+ "version": "2",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "CustomListPicker",
+ "helpString": "Custom List Picker extnesion to show different types of list picker dialog. Developed by The K Studio.",
+ "properties": [
+  {
+   "defaultValue": "&HFFFFFFFF",
+   "name": "BackgroundColor",
+   "editorArgs": [],
+   "editorType": "color"
+  },
+  {
+   "defaultValue": "True",
+   "name": "Cancellable",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "0",
+   "name": "DialogHeight",
+   "editorArgs": [],
+   "editorType": "integer"
+  },
+  {
+   "defaultValue": "&HFFFFFFFF",
+   "name": "DividerColor",
+   "editorArgs": [],
+   "editorType": "color"
+  },
+  {
+   "defaultValue": "",
+   "name": "ElementsFromString",
+   "editorArgs": [],
+   "editorType": "string"
+  },
+  {
+   "defaultValue": "false",
+   "name": "FontBold",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "16.0",
+   "name": "FontSize",
+   "editorArgs": [],
+   "editorType": "float"
+  },
+  {
+   "defaultValue": "",
+   "name": "FontTypeface",
+   "editorArgs": [],
+   "editorType": "asset"
+  },
+  {
+   "defaultValue": "&HFFFFFFFF",
+   "name": "HintTextColor",
+   "editorArgs": [],
+   "editorType": "color"
+  },
+  {
+   "defaultValue": "0.0",
+   "name": "ItemHeight",
+   "editorArgs": [],
+   "editorType": "float"
+  },
+  {
+   "defaultValue": "Cancel",
+   "name": "NegativeButtonText",
+   "editorArgs": [],
+   "editorType": "string"
+  },
+  {
+   "defaultValue": "OK",
+   "name": "PositiveButtonText",
+   "editorArgs": [],
+   "editorType": "string"
+  },
+  {
+   "defaultValue": "false",
+   "name": "RememberChoices",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "Search",
+   "name": "SearchHintText",
+   "editorArgs": [],
+   "editorType": "string"
+  },
+  {
+   "defaultValue": "true",
+   "name": "ShowFilterBar",
+   "editorArgs": [],
+   "editorType": "boolean"
+  },
+  {
+   "defaultValue": "&HFFFFFFFF",
+   "name": "TextColor",
+   "editorArgs": [],
+   "editorType": "color"
+  },
+  {
+   "defaultValue": "Select Item",
+   "name": "Title",
+   "editorArgs": [],
+   "editorType": "string"
+  }
+ ],
+ "events": [
+  {
+   "deprecated": "false",
+   "name": "AfterMultiPicking",
+   "description": "Event triggered after picking multiple items from mutli picker dialog.",
+   "params": [
+    {
+     "name": "selections",
+     "type": "list"
+    },
+    {
+     "name": "indices",
+     "type": "list"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "AfterPicking",
+   "description": "Event indicating that the user has picked an item from the custom list picker.",
+   "params": [
+    {
+     "name": "selection",
+     "type": "any"
+    },
+    {
+     "name": "index",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "AfterSinglePicking",
+   "description": "Event triggered after picking a single item",
+   "params": [
+    {
+     "name": "selection",
+     "type": "any"
+    },
+    {
+     "name": "index",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "MultiPickerCancelled",
+   "description": "Event triggered when the multi-picker is cancelled or dismissed without selecting items",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "SinglePickerCancelled",
+   "description": "Event triggered when the single-picker is cancelled or dismissed without selecting an item",
+   "params": []
+  }
+ ]
+}]
