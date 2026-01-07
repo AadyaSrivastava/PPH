@@ -1,0 +1,145 @@
+[{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2021-09-14T15:05:45+0000",
+ "nonVisible": "true",
+ "iconName": "https://bodymindpower.de/temp/BMP_icon.png",
+ "methods": [],
+ "blockProperties": [
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "AspectRatio",
+   "description": "Returns the Aspect ratio of the screen.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Density",
+   "description": "Returns the density of the display. This is a scaling factor for the Density Independent Pixel (DP), also known as device-independent-pixels (DIP).",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "DensityDeviceStable",
+   "description": "Stable density. This value is constant at run time and may not reflect the current display density. To obtain the current density for a specific display, use DensityDpi function instand of this.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "DensityDpi",
+   "description": "Returns the screen density as dots-per-inch.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "FontScale",
+   "description": "Current user preference for the scaling factor for fonts, relative to the base density scaling. Returns values between 0.8 and 2.0. Default fontScale = 1",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "HeightCm",
+   "description": "Returns the height of the screen size in cm.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "HeightDP",
+   "description": "Returns density-independent-pixels (DP) of the screen hight, also known as device-independent-pixels (DIP).",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "HeightInch",
+   "description": "Returns the height of the screen size in Inch.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "HeightMm",
+   "description": "Returns the height of the screen size in mm.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "HeightPixels",
+   "description": "Returns the absolute hight of display size in pixels (px).",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "ScaledDensity",
+   "description": "A scaling factor for fonts displayed on the display. This is the same as density, except that it may be adjusted in smaller increments at runtime based on a user preference for the font size.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "WidthCm",
+   "description": "Returns the width of the display size in cm.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "WidthDP",
+   "description": "Returns density-independent-pixels (DP) of the screen width, also known as device-independent-pixels (DIP).",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "WidthInch",
+   "description": "Returns the width of the display size in Inch.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "WidthMm",
+   "description": "Returns the width of the display size in mm.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "WidthPixels",
+   "description": "Returns the absolute width of display size in pixels (px).",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Xdpi",
+   "description": "The physical pixels per inch of the screen in the X dimension.",
+   "type": "number"
+  },
+  {
+   "rw": "read-only",
+   "deprecated": "false",
+   "name": "Ydpi",
+   "description": "The physical pixels per inch of the screen in the Y dimension.",
+   "type": "number"
+  }
+ ],
+ "helpUrl": "https://material.io/blog/device-metrics",
+ "type": "de.bodymindpower.GetMetrics.GetMetrics",
+ "androidMinSdk": 7,
+ "version": "1",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "GetMetrics",
+ "helpString": "Get Device Metrics <br>(by BodyMindPower)",
+ "properties": [],
+ "events": []
+}]
